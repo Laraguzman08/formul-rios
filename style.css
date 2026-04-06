@@ -25,3 +25,13 @@ header {
     width: 400px;
     text-align: center;
 }
+
+#img_pets {
+    width: 200px;
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
