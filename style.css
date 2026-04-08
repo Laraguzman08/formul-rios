@@ -10,10 +10,13 @@ header {
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h2 {
+    text-align: center
 }
 
 #form {
@@ -21,11 +24,10 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     justify-self: center;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 15px;
     border-radius: 5%;
     width: 400px;
-    text-align: center;
 }
 
 #img_pet {
