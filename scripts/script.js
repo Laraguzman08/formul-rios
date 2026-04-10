@@ -27,6 +27,6 @@ document.getElementById("formAdocao").addEventListener("submit", function(e) {
     if(motivo.length < 10) return alert("Mínimo de 10 caracteres!");
     if(!termo) return alert("Você deve marcar aceitando os termos de responsábilidade!");
 
-    document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome: "
+    document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!";
 })
 
