@@ -20,7 +20,12 @@ document.getElementById("formAdocao").addEventListener("submit", function(e) {
     if(cpf === "") return alert("É obrigatório informar o CPF!");
     if(idade < 18) return alert("É preciso ter 18 ou mais para adotar!");
     if(cidade === "") return alert("É obrigatório informar a cidade!");
-
+    if(moradia === "") return alert("Selecione uma moradia!");
+    if(!quintal) return alert("É obrigatório informar se possui quintal!");
+    if(!pets) return alert("É obrigatório informar se já teve pets!");
+    if(horas === "" || isNaN(horas)) return alert("Informe um número válido de horas!");
+    if(motivo.length < 10) return alert("Mínimo de 10 caracteres!");
+    if(!termo) return alert("Você deve marcar aceitando os termos de responsábilidade!");
 
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome: "
 })
