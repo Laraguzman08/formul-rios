@@ -43,6 +43,9 @@ document.getElementById("formAdocao").addEventListener("submit", function(e) {
         }
     }
     
+    if(parseInt(horas) > 8) {
+        alert("O animal passará muito tempo sozinho! (mais de 8 horas)")
+    }
 
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!";
 })
